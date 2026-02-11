@@ -1,47 +1,49 @@
-# 🎬 Dashboard de Análisis de Contenido en Streaming
-Este proyecto es una aplicación desarrollada con [Streamlit](https://streamlit.io/) para analizar, visualizar y explorar información de plataformas de streaming. Incluye estadísticas, clasificaciones por país, tipos de contenido y una navegación interactiva a través de filtros personalizables.
+# 🎬 Streaming Content Analytics Dashboard
+This project is an application developed with Streamlit (https://streamlit.io/) to analyze, visualize, and explore information from streaming platforms. It includes statistics, rankings by country, content types, and interactive navigation through customizable filters.
 
-## 🚀 Funcionalidades principales
-- Visualización interactiva de datos con filtros por país, año y tipo.
-- Gráficos descriptivos utilizando Seaborn y Matplotlib.
-- Exploración de clasificaciones y ratings por contenido.
-- App embebida en contenedor Docker para facilitar su despliegue.
+## 🚀 Main Features
+- Interactive data visualization with filters by country, year, and type.
 
-## 🐳 Cómo ejecutar con Docker:
-### 1. Obtener la imagen desde Docker Hub
-docker pull francis133/dashboard-proyecto_streaming:v1
+- Descriptive charts using Seaborn and Matplotlib.
 
-### 2. Ejecutar el contenedor
-docker run -p 8501:8501 francis133/dashboard-proyecto_streaming:v1
+- Exploration of rankings and ratings by content.
 
-### 3. Abrir la app
-Visita http://localhost:8501 en tu navegador para explorar el dashboard 📊
+- App embedded in a Docker container for easy deployment.
 
-## Estructura del proyecto 📑
+## 🐳 How to run with Docker:
+### 1. Get the image from Docker Hub
+`docker pull francis133/dashboard-proyecto_streaming:v1`
+
+### 2. Run the container
+`docker run -p 8501:8501 francis133/dashboard-proyecto_streaming:v1`
+
+### 3. Open the app
+Visit http://localhost:8501 in your browser to explore the dashboard 📊
+
+## Project Structure 📑
 Proyecto_Streaming/
-├── data/              # Conjuntos de datos en formato CSV y parquet
-├── notebooks/         # Jupyter notebooks de limpieza de datos y análisis exploratorio 
-├── scripts/           # Contiene app.py y funciones generales aplicadas a la limpieza de datos
-├── requirements.txt   # Librerías necesarias
-├── Dockerfile         # Imagen de Docker
-└── README.md          # Este archivo
+├── data/ # Datasets in CSV and Parquet formats
+├── notebooks/ # Jupyter notebooks for data cleaning and exploratory analysis
+├── scripts/ # Contains app.py and general functions applied to data cleaning
+├── requirements.txt # Required Libraries
+├── Dockerfile # Docker Image
+└── README.md # This file
 
-## ⚙️ Instalación manual (sin Docker)
-Si prefieres correr el proyecto localmente:
+## ⚙️ Manual Installation (without Docker)
+If you prefer to run the project locally:
 
 ```bash
-# Clona este repositorio
+# Clone this repository
 git clone https://github.com/Crismar12/Proyecto_Streaming.git
 cd Proyecto_Streaming
 
-# Crea un entorno virtual e instala dependencias
+# Create a virtual environment and install dependencies
 python -m venv venv
-venv\Scripts\activate   # En Windows
+venv\Scripts\activate # On Windows
 pip install -r requirements.txt
 
-# Ejecuta la app
+# Run the app
 streamlit run scripts/app.py
 ```
-## ✨ Autor
-Desarrollado por Francis 🧠 Con ❤️ por la visualización de datos y la ingeniería de sistemas e informática.
-
+## ✨ Author
+Developed by Francis 🧠 With ❤️ for data visualization and systems and computer engineering.
