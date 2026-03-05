@@ -17,4 +17,8 @@ Thumbs.db
 *.tar
 *.img
 
+# Datasets locales
+data/
+
+
 
