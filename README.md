@@ -150,6 +150,14 @@ The dashboard enables users to answer questions like:
 - 🎭 **Which content types dominate different markets?**
 
 ---
+## Sample Results
+Below are some sample charts generated during the analysis:
+
+![Top_5_per_platforms](images/top_5.png)
+*Figure 1. The 5 most popular genres by platform. This chart shows the most popular genres on the Amazon platform*
+
+![Customer Rating vs Total Bill](images/movies_shows_year.png)
+*Figure 2. Number of series and movies in 2021. This chart shows the number of movies and series per year on Netflix in 2021.*
 
 ## 🌟 Why This Project Stands Out
 
@@ -178,9 +186,9 @@ The dashboard enables users to answer questions like:
 I'm passionate about transforming raw data into meaningful insights through elegant visualization and robust engineering practices. This project showcases my ability to handle the full data lifecycle—from collection and cleaning to analysis and deployment.
 
 ### 🔗 Connect With Me
-- 💼 LinkedIn: [Your LinkedIn Profile]
+- 💼 LinkedIn: [https://www.linkedin.com/in/francis-esculpi-9018752ab/]
 - 🐙 GitHub: [@Crismar12](https://github.com/Crismar12)
-- 📧 Email: [Your Email]
+- 📧 Email: [printza9.08@gmail.com]
 
 ---
 
@@ -197,3 +205,4 @@ This project is available for portfolio and educational purposes.
 ⭐ If you find this project interesting, please consider giving it a star!
 
 </div>
+
