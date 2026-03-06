@@ -1,4 +1,5 @@
 # 🎬 Streaming Content Analytics Dashboard
+🚀 **[Click here to view the Interactive Streamlit Dashboard](https://proyectostreaming-zyz3pymhhtfxl85hfn9ndc.streamlit.app/)**
 
 > **A full-stack data analytics platform** that transforms streaming platform data into actionable insights through interactive visualizations and statistical analysis.
 
