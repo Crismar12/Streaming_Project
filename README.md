@@ -147,7 +147,6 @@ Proyecto_Streaming/
 The dashboard enables users to answer questions like:
 - 📍 **Which countries have the most diverse content libraries?**
 - 📅 **How has content production evolved over the years?**
-- ⭐ **What are the highest-rated shows by genre and platform?**
 - 🎭 **Which content types dominate different markets?**
 
 ---
